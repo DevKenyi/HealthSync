@@ -7,12 +7,13 @@ import OnboardingScheduleAppointment from "./onboarding/OnboardingScheduleAppoin
 import OnboardingStayInformed from "./onboarding/OnboardingStayInformed";
 import OnboardingWelcomeStep from "./onboarding/OnboardingWelcomeStep";
 import { SignIn } from "./auth/Signin";
+import Home from "./dashboard/Home";
 
 function App() {
   return (
     <>
-      <OnboardingMain /> */
-      
+      <Home />
+      {/* <OnboardingMain />  */}
     </>
   );
 }
